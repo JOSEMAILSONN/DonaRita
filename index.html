@@ -1,0 +1,59 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmitaria Dona Rita | Cardápio Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍱 Marmitaria Dona Rita</h1>
+        <p>Comida caseira com gostinho de amor</p>
+    </header>
+
+    <main>
+        <section class="cardapio">
+            <h2>Cardápio do Dia</h2>
+            <div class="opcoes">
+                <div class="prato">
+                    <h3>Marmita Comercial (Frango Grelhado)</h3>
+                    <p>Arroz, feijão, frango, batata frita e salada.</p>
+                    <span class="preco">R$ 18,00</span>
+                </div>
+                <div class="prato">
+                    <h3>Marmita Executiva (Feijoada)</h3>
+                    <p>Completa com couve, farofa e laranja.</p>
+                    <span class="preco">R$ 22,00</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="simulador">
+            <h2>Monte sua Marmita Customizada</h2>
+            <form id="form-marmita">
+                <label for="tamanho">Escolha o Tamanho:</label>
+                <select id="tamanho">
+                    <option value="15">Pequena (R$ 15,00)</option>
+                    <option value="18" selected>Média (R$ 18,00)</option>
+                    <option value="23">Grande (R$ 23,00)</option>
+                </select>
+
+                <fieldset>
+                    <legend>Adicionais (R$ 3,00 cada):</legend>
+                    <label><input type="checkbox" class="adicional" value="3"> Ovo Frito</label><br>
+                    <label><input type="checkbox" class="adicional" value="3"> Batata Palha</label><br>
+                    <label><input type="checkbox" class="adicional" value="3"> Farofa Especial</label>
+                </fieldset>
+
+                <div class="total-box">
+                    <h3>Valor Estimado: <span id="valor-total">R$ 18,00</span></h3>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
