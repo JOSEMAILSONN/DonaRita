@@ -6,15 +6,15 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fcf8f2;
-    color: #4a3728;
+    background-color: #121212; /* Fundo geral escuro */
+    color: #e0e0e0; /* Texto claro */
     line-height: 1.6;
     padding: 20px;
 }
 
 header {
     text-align: center;
-    background-color: #e65c00;
+    background-color: #ff6600; /* Laranja mais vivo para destacar no escuro */
     color: white;
     padding: 30px;
     border-radius: 12px;
@@ -27,23 +27,23 @@ main {
 }
 
 section {
-    background: white;
+    background: #1e1e1e; /* Blocos internos grafite escuro */
     padding: 25px;
     border-radius: 12px;
     margin-bottom: 25px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
-    color: #e65c00;
+    color: #ff6600;
     margin-bottom: 15px;
-    border-bottom: 2px solid #f2cfb6;
+    border-bottom: 2px solid #444;
     padding-bottom: 5px;
 }
 
 .prato {
-    background: #fff8f0;
-    border-left: 5px solid #e65c00;
+    background: #252525; /* Fundo dos pratos levemente mais claro que a seção */
+    border-left: 5px solid #ff6600;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 4px;
@@ -51,15 +51,17 @@ h2 {
 
 .preco {
     font-weight: bold;
-    color: #cc5200;
+    color: #ff8533; /* Laranja suave para o preço */
 }
 
 select, fieldset {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 6px;
+    background-color: #252525;
+    color: #e0e0e0;
 }
 
 fieldset {
@@ -68,7 +70,7 @@ fieldset {
 
 .total-box {
     margin-top: 20px;
-    background: #e65c00;
+    background: #ff6600;
     color: white;
     text-align: center;
     padding: 15px;
